@@ -1,3 +1,4 @@
+// filepath: /workspaces/lean-cicd-starter/lean-cicd-starter/internal/auth/auth_test.go
 package auth
 
 import (
