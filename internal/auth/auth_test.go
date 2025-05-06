@@ -1,4 +1,4 @@
-package auth 
+package auth
 
 import (
 	"errors"
@@ -17,7 +17,7 @@ func TestGetAPIKey(t *testing.T) {
 		{
 			name:          "Valid API Key",
 			authHeader:    "ApiKey valid-api-key",
-			expectedKey:   "valid-api-key",
+			expectedKey:   "invalid-key", // Deliberately incorrect
 			expectedError: nil,
 		},
 		{
