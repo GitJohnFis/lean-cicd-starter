@@ -17,7 +17,7 @@ func TestGetAPIKey(t *testing.T) {
 		{
 			name:          "Valid API Key",
 			authHeader:    "ApiKey valid-api-key",
-			expectedKey:   "invalid-key", // Deliberately incorrect
+			expectedKey:   "valid-api-key", // Ensure this matches the expected behavior
 			expectedError: nil,
 		},
 		{
